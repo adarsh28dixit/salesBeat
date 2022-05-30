@@ -1,0 +1,41 @@
+ .head{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   
+   
+    margin-top: 5%;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.head > li {
+    display: flex;
+    width: 20%;
+}
+
+.item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1%;
+    height: 2rem;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(137, 122, 122);
+}
+
+a{
+    float: left;
+}
+.continent{
+    margin-top: 5%;
+}
+
+.item > li {
+    display: flex;
+    width: 20%;
+}
